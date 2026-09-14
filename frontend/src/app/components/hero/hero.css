@@ -1,0 +1,35 @@
+.hero {
+  padding: 48px 28px;
+  text-align: center;
+  background: linear-gradient(180deg, #F3E4C8 0%, #E4C89A 100%);
+  border-radius: var(--radius-card);
+}
+
+.hero-content h1 {
+  font-family: var(--font-heading);
+  font-size: 34px;
+  font-weight: 500;
+  color: var(--color-espresso);
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.hero-content p {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--color-espresso-soft);
+  max-width: 380px;
+  margin: 0 auto 20px;
+}
+
+.order-btn {
+  font-family: var(--font-body);
+  background-color: var(--color-caramel);
+  color: var(--color-cream-light);
+  border: none;
+  padding: 11px 26px;
+  border-radius: var(--radius-button);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}

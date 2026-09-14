@@ -1,0 +1,12 @@
+<section class="featured">
+  <h2>Öne Çıkan Kahveler</h2>
+  <div class="coffee-grid">
+    @for (coffee of coffees(); track coffee.id) {
+      <div class="coffee-card">
+        <div class="coffee-image"></div>
+        <div class="coffee-name">{{ coffee.name }}</div>
+        <div class="coffee-price">{{ coffee.price }} TL</div>
+      </div>
+    }
+  </div>
+</section>

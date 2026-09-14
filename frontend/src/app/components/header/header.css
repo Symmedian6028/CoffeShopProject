@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 28px;
+  background: linear-gradient(180deg, #5A3D2B 0%, var(--color-espresso-soft) 100%);
+}
+
+.logo {
+  font-family: var(--font-heading);
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--color-cream);
+}
+
+.nav-links {
+  display: flex;
+  gap: 22px;
+}
+
+.nav-links a {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: #E4C89A;
+  text-decoration: none;
+}
+
+.login-btn {
+  font-family: var(--font-body);
+  background-color: var(--color-honey);
+  color: var(--color-espresso-soft);
+  border: none;
+  padding: 8px 18px;
+  border-radius: var(--radius-button);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
