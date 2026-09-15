@@ -6,6 +6,7 @@ import { FeaturedCoffees } from './components/featured-coffees/featured-coffees'
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [RouterOutlet, Header, Hero, FeaturedCoffees],
   templateUrl: './app.html',
   styleUrl: './app.css'

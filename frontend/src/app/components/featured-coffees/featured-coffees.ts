@@ -4,6 +4,7 @@ import { Coffee } from '../../models/coffee.model';
 
 @Component({
   selector: 'app-featured-coffees',
+  standalone: true,
   imports: [],
   templateUrl: './featured-coffees.html',
   styleUrl: './featured-coffees.css'
